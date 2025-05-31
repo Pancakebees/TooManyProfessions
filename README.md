@@ -1,6 +1,6 @@
 # TooManyProfessions
 
-Mod for Cataclysm: Bright Nights that adds several professions.
+Mod for Cataclysm: Bright Nights that adds several professions, one scenario so far, and a multitude of references contained within; hopefully, all decently-written.
 
 ## Professions
 
