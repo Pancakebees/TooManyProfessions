@@ -18,12 +18,4 @@ Mod for Cataclysm: Bright Nights that adds several professions.
 
 ### Scenarios
 
-Mutant (Experiment but unlocked)
-
-## Planned
-
-### Professions
-N/A
-
-### Scenarios
-N/A
+- Mutant (Experiment but unlocked)
