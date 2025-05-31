@@ -2,9 +2,7 @@
 
 Mod for Cataclysm: Bright Nights that adds several professions.
 
-## Implemented
-
-### Professions
+## Professions
 
 - Army Officer
 - Bartender
@@ -16,6 +14,6 @@ Mod for Cataclysm: Bright Nights that adds several professions.
 - Office Drone
 - Reporter
 
-### Scenarios
+## Scenarios
 
 - Mutant (Experiment but unlocked)
