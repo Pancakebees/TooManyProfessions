@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Too_Many_Professions",
+    "name": "Too Many Professions",
+    "authors": ["Pancakebees / Pancake Apis"],
+    "description": "Adds several decently-written professions, some more or less balanced.",
+    "category": "misc_additions",
+    "dependencies": ["bn"]
+  }
+]

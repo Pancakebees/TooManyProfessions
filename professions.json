@@ -1,0 +1,211 @@
+[
+  {
+    "type": "profession",
+    "id": "tmp_army_officer",
+    "name": "Army Officer",
+    "description": "You were an officer in the Army, before things went to hell. Dead men don't respect rank, and the only attention they're standing to is to eat your brains.",
+    "points": 4,
+    "traits": [ "PROF_MILITARY" ],
+    "items": {
+      "both": {
+        "items": [ "pants", "dress_shirt", "socks", "dress_shoes", "tie_necktie", "greatcoats", "pockknife", "smart_phone", "wristwatch" ],
+		"entries": [ { "item": "m1911", "ammo-item": "45_acp", "charges": 7, "container-item": "holster" }, { "item": "m1911mag", "ammo-item": "45_acp", "charges": 7 }, { "item": "m1911mag", "ammo-item": "45_acp", "charges": 7 } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    },
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" },
+      { "level": 3, "name": "speech" }
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tmp_bartender",
+    "name": { "male": "Bartender", "female": "Barmaid" },
+    "description": "You were a bartender, serving drinks and listen to people gush about their problems. Now you have no customers and you had to get the shotgun from behind the counter.",
+    "points": 2,
+    "skills": [
+      { "level": 2, "name": "cooking" },
+      { "level": 2, "name": "speech" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "pants", "dress_shirt", "smart_phone", "tie_clipon", "waistcoat", "socks", "dress_shoes", "sunglasses", "wristwatch" ],
+        "entries":  [ { "item": "shotgun_d", "ammo-item": "shot_slug", "charges": 2, "custom-flags": [ "auto_wield" ] } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "panties", "bra" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "tms_gangbanger",
+    "name": "Gangbanger",
+    "description": "You were on the streets, repping colors, capping anyone with the wrong ones, and robbing indiscriminately. Now all the gangs are dead and the liquor stores closed. It's gonna be a long summer.",
+    "points": 3,
+    "skills": [
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "gun" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "driving" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "pants", "tshirt", "bandana_head", "socks", "sneakers", "smart_phone" ],
+        "entries": [
+          { "item": "tec9", "ammo-item": "9mm", "charges": 32, "custom-flags": [ "auto_wield" ] },
+          { "item": "tec9mag", "ammo-item": "9mm", "charges": 32 },
+          { "item": "lighter", "charges": 100 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "addictions": [ { "intensity": 10, "type": "alcohol" } ]
+  },
+  {
+    "type": "profession",
+    "id": "tmp_heister",
+    "name": "Heister",
+    "description": "It was payday for you and your crew after hitting the bank, until society promptly collapsed and the money were trying to steal become absolutely worthless. There's no heat around the corner when everyone is dead cold.",
+	"//": "Based off of the North Hollywood shooters mixed with Heat and PAYDAY. Contains Heat reference.",
+    "points": 4,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "speech" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "socks", "pants", "dress_shirt", "tie_necktie", "kevlar", "blazer", "dress_shoes", "mask_bal", "duffelbag" ],
+        "entries": [ 
+			{ "item": "ak47", "custom-flags": [ "auto_wield" ], "contents": "stock_small" },
+			{ "item": "90two", "ammo-item": "9mm", "charges": 15, "container-item": "holster" },
+			{ "item": "m9mag", "ammo-item": "9mm", "charges": 15 }
+		]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "boy_shorts", "sports_bra" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "tmp_journalist",
+    "name": "Reporter",
+    "description": "You were a reporter, working for a news agency. You were reporting on the riots until the rioters got to you, and you were forced to flee. Though you lost your article draft, you still have the biggest scoop in history to cover. Ayayayaya!",
+	"//": "Reference to Aya Shameimaru from Touhou.",
+    "points": 0,
+    "skills": [
+      { "level": 2, "name": "speech" }
+    ],
+    "traits": [ "LIAR" ],
+    "items": {
+      "both": {
+        "items": [ "dress_shirt", "smart_phone", "blazer", "socks", "dress_shoes", "wristwatch" ],
+        "entries": [ { "item": "microphone_xlr_generic", "custom-flags": [ "auto_wield" ] } ]
+      },
+      "male": [ "boxer_shorts", "pants" ],
+      "female": [ "panties", "bra", "skirt" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "tmp_journalist_feral",
+    "copy-from": "prof_feral_unemployed",
+    "name": "Feral Reporter",
+    "description": "",
+    "points": 0,
+    "skills": [
+      { "level": 1, "name": "speech" }
+    ],
+    "traits": [ "LIAR", "PROF_FERAL" ],
+    "items": {
+      "both": {
+        "items": [ "dress_shirt", "smart_phone", "blazer", "socks", "dress_shoes", "wristwatch" ],
+		"entries": [ 
+          { "item": "dress_shirt", "damage": [ 0, 3 ] },
+          { "item": "socks", "damage": [ 0, 3 ] },
+          { "item": "dress_shoes", "damage": [ 0, 3 ] },
+          { "item": "blazer", "damage": [ 0, 3 ] },
+          { "item": "wristwatch", "damage": [ 0, 3 ] },
+		  { "item": "microphone_xlr_generic", "custom-flags": [ "auto_wield" ] }
+		]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts", "damage": [ 0, 3 ] }, { "item": "pants", "damage": [ 0, 3 ] } ] },
+      "female": { "entries": [ { "item": "bra", "damage": [ 0, 3 ] }, { "item": "panties", "damage": [ 0, 3 ] }, { "item": "skirt", "damage": [ 0, 3 ] } ] }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "tmp_naval_officer",
+    "name": "Naval Officer",
+    "description": "You were an officer in the Navy, before things went to hell. When shit hit the fan, most of the seamen, both dead and alive, mutinied, so you had to abandon ship. Sadly, you lost your cap, but you still have your trusty pistol and saber.",
+	"//": "'lost' being code for 'doesn't exist in the game'. The MK23 is not standard-issue for non-USSOCCOM, but we're assuming this is a personal weapon.",
+    "points": 5,
+    "traits": [ "PROF_MILITARY" ],
+    "items": {
+      "both": {
+        "items": [ "pants", "dress_shirt", "socks", "dress_shoes", "tie_necktie", "peacoat", "pockknife", "smart_phone", "wristwatch" ],
+		"entries": [ { "item": "mk23", "ammo-item": "45_acp", "charges": 15, "container-item": "holster" }, { "item": "usp45mag", "ammo-item": "45_acp", "charges": 12 }, { "item": "usp45mag", "ammo-item": "45_acp", "charges": 12 }, { "item": "cavalry_sabre", "container-item": "scabbard" } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    },
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "driving" },
+      { "level": 3, "name": "speech" }
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tmp_office_drone",
+    "name": "Office Drone",
+    "description": "You were a white-collar worker, working a dead-end office job, staring at a screen, filling out TPS reports for a 'living', and listening to eight different bosses droning about mission statements. Now that the world has ended, there's no bosses or paperwork. The zombies are lucky you're not armed.",
+	"//": "Three references to Office Space.",
+    "points": 0,
+    "items": {
+      "both": {
+        "items": [ "pants", "dress_shirt", "socks", "dress_shoes", "tie_necktie", "smart_phone", "wristwatch", "pen" ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "tmp_office_drone_feral",
+    "copy-from": "prof_feral_unemployed",
+    "name": "Feral Office Drone",
+    "description": "You were a white-collar worker, working a dead-end office job. An abusive boss, unmanageable workloads, all went away, along with all of your coworkers. God bless the working stiff!",
+	"//": "Reference to Falling Down.",
+    "points": 1,
+    "traits": [ "PROF_FERAL" ],
+    "items": {
+      "both": {
+        "items": [ "smart_phone", "pen" ],
+		"entries": [ 
+          { "item": "pants", "damage": [ 0, 3 ] },
+          { "item": "dress_shirt", "damage": [ 0, 3 ] },
+          { "item": "socks", "damage": [ 0, 3 ] },
+          { "item": "dress_shoes", "damage": [ 0, 3 ] },
+          { "item": "tie_necktie", "damage": [ 0, 3 ] },
+          { "item": "wristwatch", "damage": [ 0, 3 ] },
+          { "item": "briefcase", "damage": [ 0, 3 ] },
+		  { "item": "tec9", "ammo-item": "9mm", "charges": [ 1, 32 ], "custom-flags": [ "auto_wield" ] }
+		]
+	  },
+      "male": { "entries": [ { "item": "boxer_shorts", "damage": [ 0, 3 ] } ] },
+      "female": { "entries": [ { "item": "bra", "damage": [ 0, 3 ] }, { "item": "panties", "damage": [ 0, 3 ] } ] }
+    }
+  }
+]
