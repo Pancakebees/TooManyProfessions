@@ -26,7 +26,7 @@
     "id": "tmp_bartender",
     "name": { "male": "Bartender", "female": "Barmaid" },
     "description": "You were a bartender, serving drinks and listen to people gush about their problems. Now you have no customers and you had to get the shotgun from behind the counter.",
-    "points": 2,
+    "points": 1,
     "skills": [
       { "level": 2, "name": "cooking" },
       { "level": 2, "name": "speech" }
@@ -45,7 +45,7 @@
     "id": "tms_gangbanger",
     "name": "Gangbanger",
     "description": "You were on the streets, repping colors, capping anyone with the wrong ones, and robbing indiscriminately. Now all the gangs are dead and the liquor stores closed. It's gonna be a long summer.",
-    "points": 3,
+    "points": 2,
     "skills": [
       { "level": 1, "name": "melee" },
       { "level": 1, "name": "stabbing" },
