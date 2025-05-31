@@ -25,7 +25,7 @@
     "type": "profession",
     "id": "tmp_bartender",
     "name": { "male": "Bartender", "female": "Barmaid" },
-    "description": "You were a bartender, serving drinks and listen to people gush about their problems. Now you have no customers and you had to get the shotgun from behind the counter.",
+    "description": "You were a bartender, serving drinks and listen to people gush about their problems. Now you have no customers, no alcohol, and you had to get the shotgun from behind the counter.",
     "points": 1,
     "skills": [
       { "level": 2, "name": "cooking" },
@@ -34,7 +34,7 @@
     "items": {
       "both": {
         "items": [ "pants", "dress_shirt", "smart_phone", "tie_clipon", "waistcoat", "socks", "dress_shoes", "sunglasses", "wristwatch" ],
-        "entries":  [ { "item": "shotgun_d", "ammo-item": "shot_slug", "charges": 2, "custom-flags": [ "auto_wield" ] } ]
+        "entries":  [ { "item": "shotgun_d", "ammo-item": "shot_slug", "charges": 2, "custom-flags": [ "auto_wield" ] }, { "item": "shot_00", "count": 16 } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "panties", "bra" ]
@@ -66,6 +66,31 @@
       "female": [ "bra", "panties" ]
     },
     "addictions": [ { "intensity": 10, "type": "alcohol" } ]
+  },
+  {
+    "type": "profession",
+    "id": "tmp_gnome_enthusiast",
+    "name": "Gnome Enthusiast",
+    "description": "MUCKLE DARMED ZUMBIES TOOK YER WEE MEN! Luckily, you still have your shotgun.",
+    "//": "In honor of Old Man Henderson.",
+    "points": 6,
+    "skills": [
+      { "level": 3, "name": "cooking" },
+      { "level": 3, "name": "driving" },
+      { "level": 1, "name": "gun" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 2, "name": "shotgun" }
+    ],
+    "traits": [ "SCHIZOPHRENIC", "STIMBOOST" ],
+    "items": {
+      "both": {
+        "items": [ "shorts_cargo", "tank_top", "smart_phone", "socks", "boots_combat", "mbag", "sunglasses", "wristwatch", "whiskey" ],
+        "entries": [ { "item": "tavor_12", "ammo-item": "shot_00", "charges": 15, "custom-flags": [ "auto_wield" ] }, { "item": "shot_00", "count": 15 }, { "item": "c4", "count": 2 } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "boy_shorts", "bra" ]
+    },
+    "addictions": [ { "intensity": 20, "type": "alcohol" } ]
   },
   {
     "type": "profession",
