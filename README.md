@@ -9,6 +9,7 @@ Mod for Cataclysm: Bright Nights that adds several professions, one scenario so 
 - Feral Office Drone
 - Feral Reporter
 - Gangbanger
+- Gnome Enthusiast
 - Heister
 - Naval Officer
 - Office Drone
