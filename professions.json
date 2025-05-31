@@ -72,7 +72,7 @@
     "id": "tmp_heister",
     "name": "Heister",
     "description": "It was payday for you and your crew after hitting the bank, until society promptly collapsed and the money were trying to steal become absolutely worthless. There's no heat around the corner when everyone is dead cold.",
-	"//": "Based off of the North Hollywood shooters mixed with Heat and PAYDAY. Contains Heat reference.",
+    "//": "Based off of the North Hollywood shooters mixed with Heat and PAYDAY. Contains Heat reference.",
     "points": 4,
     "skills": [
       { "level": 2, "name": "gun" },
@@ -99,7 +99,7 @@
     "id": "tmp_journalist",
     "name": "Reporter",
     "description": "You were a reporter, working for a news agency. You were reporting on the riots until the rioters got to you, and you were forced to flee. Though you lost your article draft, you still have the biggest scoop in history to cover. Ayayayaya!",
-	"//": "Reference to Aya Shameimaru from Touhou.",
+    "//": "Reference to Aya Shameimaru from Touhou.",
     "points": 0,
     "skills": [
       { "level": 2, "name": "speech" }
@@ -146,7 +146,7 @@
     "id": "tmp_naval_officer",
     "name": "Naval Officer",
     "description": "You were an officer in the Navy, before things went to hell. When shit hit the fan, most of the seamen, both dead and alive, mutinied, so you had to abandon ship. Sadly, you lost your cap, but you still have your trusty pistol and saber.",
-	"//": "'lost' being code for 'doesn't exist in the game'. The MK23 is not standard-issue for non-USSOCCOM, but we're assuming this is a personal weapon.",
+    "//": "'lost' being code for 'doesn't exist in the game'. The MK23 is not standard-issue for non-USSOCCOM, but we're assuming this is a personal weapon.",
     "points": 5,
     "traits": [ "PROF_MILITARY" ],
     "items": {
@@ -170,8 +170,8 @@
     "type": "profession",
     "id": "tmp_office_drone",
     "name": "Office Drone",
-    "description": "You were a white-collar worker, working a dead-end office job, staring at a screen, filling out TPS reports for a 'living', and listening to eight different bosses droning about mission statements. Now that the world has ended, there's no bosses or paperwork. The zombies are lucky you're not armed.",
-	"//": "Three references to Office Space.",
+    "description": "You were a white-collar worker, working a dead-end office job, staring at a screen, filling out TPS reports for a 'living', and listening to eight different bosses droning about mission statements. Now that the world's ended, there's no bosses or paperwork. The zombies are lucky you're not armed.",
+    "//": "Three references to Office Space.",
     "points": 0,
     "items": {
       "both": {
@@ -186,8 +186,8 @@
     "id": "tmp_office_drone_feral",
     "copy-from": "prof_feral_unemployed",
     "name": "Feral Office Drone",
-    "description": "You were a white-collar worker, working a dead-end office job. An abusive boss, unmanageable workloads, all went away, along with all of your coworkers. God bless the working stiff!",
-	"//": "Reference to Falling Down.",
+    "description": "You were a white-collar worker, working a dead-end office job. An abusive boss, unmanageable workloads; they all went away, along with all of your coworkers and the very company. God bless the working stiff!",
+    "//": "Reference to Falling Down.",
     "points": 1,
     "traits": [ "PROF_FERAL" ],
     "items": {
