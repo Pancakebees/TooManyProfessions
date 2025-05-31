@@ -8,7 +8,7 @@
     "traits": [ "PROF_MILITARY" ],
     "items": {
       "both": {
-        "items": [ "pants", "dress_shirt", "socks", "dress_shoes", "tie_necktie", "greatcoats", "pockknife", "smart_phone", "wristwatch" ],
+        "items": [ "pants", "dress_shirt", "socks", "dress_shoes", "tie_necktie", "greatcoat", "pockknife", "smart_phone", "wristwatch" ],
 		"entries": [ { "item": "m1911", "ammo-item": "45_acp", "charges": 7, "container-item": "holster" }, { "item": "m1911mag", "ammo-item": "45_acp", "charges": 7 }, { "item": "m1911mag", "ammo-item": "45_acp", "charges": 7 } ]
       },
       "male": [ "boxer_shorts" ],
@@ -85,7 +85,7 @@
       "both": {
         "items": [ "socks", "pants", "dress_shirt", "tie_necktie", "kevlar", "blazer", "dress_shoes", "mask_bal", "duffelbag" ],
         "entries": [ 
-			{ "item": "ak47", "custom-flags": [ "auto_wield" ], "contents": "stock_small" },
+			{ "item": "ak47", "custom-flags": [ "auto_wield" ], "ammo-item": "762", "charges": 30, "contents-item": "stock_small" },
 			{ "item": "90two", "ammo-item": "9mm", "charges": 15, "container-item": "holster" },
 			{ "item": "m9mag", "ammo-item": "9mm", "charges": 15 }
 		]
