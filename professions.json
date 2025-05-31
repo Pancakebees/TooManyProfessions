@@ -85,7 +85,7 @@
       "both": {
         "items": [ "socks", "pants", "dress_shirt", "tie_necktie", "kevlar", "blazer", "dress_shoes", "mask_bal", "duffelbag" ],
         "entries": [ 
-			{ "item": "ak47", "custom-flags": [ "auto_wield" ], "ammo-item": "762", "charges": 30, "contents-item": "stock_small" },
+			{ "item": "ak47", "custom-flags": [ "auto_wield" ], "ammo-item": "762_m43", "charges": 30, "contents-item": "stock_small" },
 			{ "item": "90two", "ammo-item": "9mm", "charges": 15, "container-item": "holster" },
 			{ "item": "m9mag", "ammo-item": "9mm", "charges": 15 }
 		]
