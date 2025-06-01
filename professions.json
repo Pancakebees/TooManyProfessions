@@ -197,7 +197,7 @@
     "name": "Office Drone",
     "description": "You were a white-collar worker, working a dead-end office job, staring at a screen, filling out TPS reports for a 'living', and listening to eight different bosses droning about mission statements. Now that the world's ended, there's no bosses or paperwork. The zombies are lucky you're not armed.",
     "//": "Three references to Office Space.",
-    "points": 0,
+    "points": -1,
     "items": {
       "both": {
         "items": [ "pants", "dress_shirt", "socks", "dress_shoes", "tie_necktie", "smart_phone", "wristwatch", "pen" ]
