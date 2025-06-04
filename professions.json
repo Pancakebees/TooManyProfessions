@@ -73,7 +73,7 @@
     "name": "Gnome Enthusiast",
     "description": "MUCKLE DARMED ZUMBIES TOOK YER WEE MEN! Luckily, you still have your shotgun.",
     "//": "In honor of Old Man Henderson.",
-    "points": 6,
+    "points": 4,
     "skills": [
       { "level": 3, "name": "cooking" },
       { "level": 3, "name": "driving" },
